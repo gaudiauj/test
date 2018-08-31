@@ -1,0 +1,18 @@
+{
+  "name": "word-counter",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "eslint": "^5.4.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "jest": "^21.2.1"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/jest",
+    "lint": "eslint ./src/**/*.js",
+    "test:watch": "./node_modules/.bin/jest --watch"
+  }
+}
